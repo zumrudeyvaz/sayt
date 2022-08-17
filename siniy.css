@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Raleway:ital@1&display=swap');
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style-type: none;
+}
+.cap {
+  text-transform: capitalize;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.section1 {
+  color: #fff;
+}
+header {
+  text-align: right;
+}
+.header-top, .header-menu {
+  padding: 20px 10px;
+}
+.header-top {
+  background-color: navy;
+}
+.contact {
+  display: inline-block;
+  margin-right: 10px;
+}
+.contact:not(:last-child)::after {
+  content: "|";
+  color: #ccc;
+  margin-left: 10px;
+}
+.header-menu {
+  background-color: darkorange;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.welcome {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+.welcome::before {
+  content: "|";
+  color: darkorange;
+  margin-right: 10px;
+  font-weight: bold;
+}
+main {
+  background-color: navy;
+  height: 600px;
+  background-image: url('https://wallpaperaccess.com/full/4032484.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+.content {
+  width: 500px;
+}
+.welcome {
+
+}
+.head {
+  font-size: 54px;
+  line-height: 1.5em;
+}
+.repair {
+  color: darkorange;
+}
+.info {
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: 20px 0;
+}
+.btn1, .btn2 {
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: 1px solid white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: transparent;
+}
+.btn2 {
+  background-color: darkorange;
+  border-color: darkorange;
+}
+.zaqolovok{
+	margin:50px auto;
+	width:400px;
+	text-align:center;
+}
+.work{
+	letter-spacing:-0.5px;
+}
+.need{
+	margin-bottom:30px;
+	padding:8px;
+	color:#00b;
+	font-family:raleway;
+	font-size:40px;
+}
+.block{
+	width:250px;
+	height:600px;
+	margin:20px;
+	padding:5px;
+	border:1px solid #ccb;
+}
+.img1{
+	background-image:url('https://img.freepik.com/free-vector/cute-astronaut-dance-cartoon-vector-icon-illustration-technology-science-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3851.jpg?w=2000');
+	height:250px;
+	background-size:cover;
+	background-position:center;
+	padding:8px;
+}
+.block-head{
+	margin:10px;
+	padding:20px 50px;
+	font-size:24px;
+	color:#00b;
+	font-family:raleway;
+}
+.block-par{
+	margin:10px 12px;
+	padding:6px;
+}
+.block-btn{
+	margin:24px;
+	text-align:center;
+	color:#fff;
+	cursor:pointer;
+}
+.color{
+	background-color:#ccb;
+	padding:10px;
+}
+.arr-btn{
+	background-color:darkorange;
+	padding:10px;
+	border:1px solid #ffe5cc;
+	color:#fff;
+}
+.img2{
+	background-image:url('https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydG9vbnxlbnwwfHwwfHw%3D&w=1000&q=80');
+	height:250px;
+	background-size:cover;
+	background-position:center;
+	padding:8px;
+}
+.img3{
+	background-image:url('https://img.freepik.com/free-vector/cute-swag-polar-bear-with-hat-gold-chain-necklace-cartoon-illustration-flat-cartoon-style_138676-2719.jpg?w=2000');
+	height:250px;
+	background-size:cover;
+	background-position:center;
+	padding:8px;
+}
+.blocks{
+	display:flex;
+	justify-content:center;
+}
